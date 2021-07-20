@@ -1,0 +1,9 @@
+@import "variables";
+#footer	{
+	background: $color_gradient;
+	font-size: 1.5rem;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+}
