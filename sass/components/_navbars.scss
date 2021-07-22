@@ -1,0 +1,25 @@
+#header {
+	img {
+		margin-top: -7.75px;
+		width: 80px;
+		margin-right: 1px;
+	}
+
+	p {
+		display: inline;
+		font-size: 1.88rem;
+		font-weight: 450;
+	}
+}
+
+nav {
+	.container {
+		position: relative;
+	}
+}
+
+@media screen and (max-width:990px) {
+	.position-absolute {
+		position: inherit !important;
+	}
+}

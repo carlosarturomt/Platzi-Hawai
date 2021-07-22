@@ -1,0 +1,18 @@
+.carousel.slide.carousel-fade#carousel(data-bs-ride="carousel" data-bs-pause="false")
+	.carousel-inner
+		.carousel-item.active: img.d-block.w-100(src="../assets/images/hawaii.jpg"  alt="Hawai 1")
+		.carousel-item: img.d-block.w-100(src="../assets/images/hawaii2.jpg"  alt="Hawai 2")
+		.carousel-item: img.d-block.w-100(src="../assets/images/hawaii3.jpeg"  alt="Hawai 3")
+		.overlay: .container: .row.align-items-center
+			.col-md-6.offset-md-6.text-md-end.text-center
+				h1 Platzi Conf Hawaii
+				p.d-none.d-md-block Platzi Conf llega por primera vez a Hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a otros estudiantes de Platzi y a los oradores de primer nivel que tenemos para ti. Te esperamos!
+				a.btn.btn-outline-light(href="#") Quiero ser orador
+				button.btn.btn-platzi(type="button") Comprar tickets 
+//- C O N T R O L S  C A R O U S E L
+	button.carousel-control-prev(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev")
+		span.carousel-control-prev-icon(aria-hidden="true")
+		span.visually-hidden Previous
+	button.carousel-control-next(type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next")
+		span.carousel-control-next-icon(aria-hidden="true")
+		span.visually-hidden Next

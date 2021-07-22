@@ -1,2 +1,18 @@
 extend components/plantilla.pug
 block contenidos
+	main#main
+		include components/carousel.pug
+	section#speakers.mt-4.mb-4
+		.container
+			.row: .col.text-center.text-uppercase
+				p Conoce a los 
+				h2.h1 Oradores
+			.row
+				.col-md-6.col-lg-4.mb-4
+					+card_bootstrap('../assets/speakers/sacha.jpg','Foto de Sacha', '#', 'Sacha Lifzyck')
+				.col-md-6.col-lg-4.mb-4
+					+card_bootstrap('../assets/speakers/leonidas.jpeg','Foto de Leonidas Esteban', '#', 'Leonidas Esteban')
+				.col-md-6.col-lg-4.mb-4
+					+card_bootstrap('../assets/speakers/freddy.jpeg','Foto de Freddy Vega', '#', 'Freddy Vega')
+				.col-md-6.col-lg-4.mb-4
+					+card_bootstrap('../assets/speakers/cvander.jpeg','Foto de Christian Van Der H.', '#', 'Christian Van Der H.')
