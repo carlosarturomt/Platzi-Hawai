@@ -1,10 +1,13 @@
 //- V A R I A B L E S
 
 //- M I X I N S
-mixin card_bootstrap(src, alt, href, nombre)
+mixin card_bootstrap(src, alt, href, nombre, barge1, barge2)
 	.card
 		img.card-img-top(src=src alt=alt)
 		.card-body
+			.badges.mb-2
+				span.badge.bg-warning.text-dark=barge1
+				span.badge.bg-info.ms-2=barge2		
 			h5.card-title=nombre
 			p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
 			//- a.btn.btn-primary(href=href) Go somewhere

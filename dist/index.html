@@ -28,7 +28,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark pb-3 pt-3" id="header">
       <div class="container"><a class="navbar-brand" href="#"> <img src="../assets/images/platzi-logo.png" alt="Logo"/>
-          <p>Conf Hawaii</p></a>
+          <h3>Conf Hawaii</h3></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto position-absolute end-0">
@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center text-uppercase">
-            <p>Conoce a los </p>
+            <p class="mb-0">Conoce a los </p>
             <h2 class="h1">Oradores</h2>
           </div>
         </div>
@@ -73,6 +73,7 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card"><img class="card-img-top" src="../assets/speakers/sacha.jpg" alt="Foto de Sacha"/>
               <div class="card-body">
+                <div class="badges mb-2"><span class="badge bg-warning text-dark">JavaScript</span><span class="badge bg-info ms-2">React</span></div>
                 <h5 class="card-title">Sacha Lifzyck</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -81,6 +82,7 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card"><img class="card-img-top" src="../assets/speakers/leonidas.jpeg" alt="Foto de Leonidas Esteban"/>
               <div class="card-body">
+                <div class="badges mb-2"><span class="badge bg-warning text-dark">JavaScript</span><span class="badge bg-info ms-2">Angular</span></div>
                 <h5 class="card-title">Leonidas Esteban</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -89,6 +91,7 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card"><img class="card-img-top" src="../assets/speakers/freddy.jpeg" alt="Foto de Freddy Vega"/>
               <div class="card-body">
+                <div class="badges mb-2"><span class="badge bg-warning text-dark">PHP</span><span class="badge bg-info ms-2">Laravel</span></div>
                 <h5 class="card-title">Freddy Vega</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -97,8 +100,58 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card"><img class="card-img-top" src="../assets/speakers/cvander.jpeg" alt="Foto de Christian Van Der H."/>
               <div class="card-body">
+                <div class="badges mb-2"><span class="badge bg-warning text-dark">JavaScript</span><span class="badge bg-info ms-2">Node</span></div>
                 <h5 class="card-title">Christian Van Der H.</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="place-time">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-lg-6 col-12 px-0"><img src="../assets/images/honolulu.jpg" alt="Ciudad de Honolulu"/></div>
+          <div class="col col-lg-6 col-12 pt-4 pb-4">
+            <h2>Honolulu - Octubre 2025</h2>
+            <p>Honolulu, en la costa sur de la isla de Oahu, es la capital de Hawái y la vía de acceso a la cadena de islas de EE.UU. El barrio de Waikiki es un centro de restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma de medialuna bordeada de palmeras y hoteles de muchos pisos y con el cráter volcánico Diamond Head en lo alto a la distancia. Los sitios relacionados con el ataque a Pearl Harbor en la Segunda Guerra Mundial incluyen el USS Arizona Memorial. </p><a class="btn btn-outline-light" href="https://www.google.com/search?client=opera&amp;q=honolulu&amp;sourceid=opera&amp;ie=UTF-8&amp;oe=UTF-8">Conoce más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 mb-4" id="orador">
+      <div class="container">
+        <div class="row">
+          <div class="col text-uppercase text-center">
+            <p class="mb-0">Conviértete en un</p>
+            <h2 class="h1">Orador</h2>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col text-center">
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col col-md-8 offset-md-2 pt-2">
+            <div class="row">
+              <div class="col-12 col-md-6 form-label">
+                <input class="form-control" type="text" placeholder="Nombre" aria-label="First name"/>
+              </div>
+              <div class="col-12 col-md-6 form-label">
+                <input class="form-control" type="text" placeholder="Apellido" aria-label="Last name"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col form-label">
+                <textarea class="form-control form-control-lg" name="" cols="30" rows="3" placeholder="Sobre ¿qué quieres hablar?"></textarea>
+                <p class="form-text text-muted">Recuerda icluir un título para tu charla.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col form-label">
+                <button class="btn btn-platzi col-12" type="button">Enviar</button>
               </div>
             </div>
           </div>

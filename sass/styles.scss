@@ -6,12 +6,20 @@ h1 {
 	font-size: 4rem;
 }
 
+h2 {
+	font-size: 3.5rem;
+}
+
 h5 {
 	font-size: 2rem;
 }
 
-p, a, button {
+p, a, button, input, textarea {
 	font-size: 1.5rem !important;
+}
+
+span {
+	font-size: 1.2rem !important;
 }
 
 #main {
@@ -44,6 +52,14 @@ p, a, button {
 		.row {
 			height: 100%;
 		}
+	}
+}
+
+#place-time {
+	color: white;
+	background-color: #212529;
+	img {
+		max-width: 100%;
 	}
 }
 

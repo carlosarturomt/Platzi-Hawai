@@ -25,7 +25,7 @@ a {
   width: 80px;
   margin-right: 1px;
 }
-#header p {
+#header h3 {
   display: inline;
   font-size: 1.88rem;
   font-weight: 450;
@@ -44,12 +44,20 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3.5rem;
+}
+
 h5 {
   font-size: 2rem;
 }
 
-p, a, button {
+p, a, button, input, textarea {
   font-size: 1.5rem !important;
+}
+
+span {
+  font-size: 1.2rem !important;
 }
 
 #main .carousel-inner img {
@@ -76,6 +84,14 @@ p, a, button {
 }
 #carousel .overlay .row {
   height: 100%;
+}
+
+#place-time {
+  color: white;
+  background-color: #212529;
+}
+#place-time img {
+  max-width: 100%;
 }
 
 .text-platzi {
