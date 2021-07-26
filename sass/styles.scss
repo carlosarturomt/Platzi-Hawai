@@ -14,12 +14,12 @@ h5 {
 	font-size: 2rem;
 }
 
-p, a, button, input, textarea {
+p,
+a,
+button,
+input,
+textarea {
 	font-size: 1.5rem !important;
-}
-
-span {
-	font-size: 1.2rem !important;
 }
 
 #main {
@@ -58,6 +58,7 @@ span {
 #place-time {
 	color: white;
 	background-color: #212529;
+
 	img {
 		max-width: 100%;
 	}
@@ -70,6 +71,7 @@ span {
 .btn-platzi {
 	color: white;
 	background-color: #688f26;
+
 	&:hover {
 		background-color: $color_platzi;
 	}
@@ -79,5 +81,11 @@ span {
 	img {
 		height: 35vh;
 		object-fit: cover;
+	}
+}
+
+.badges {
+	span {
+		font-size: 1.2rem;
 	}
 }

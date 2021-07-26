@@ -52,12 +52,12 @@ h5 {
   font-size: 2rem;
 }
 
-p, a, button, input, textarea {
+p,
+a,
+button,
+input,
+textarea {
   font-size: 1.5rem !important;
-}
-
-span {
-  font-size: 1.2rem !important;
 }
 
 #main .carousel-inner img {
@@ -109,4 +109,8 @@ span {
 .card img {
   height: 35vh;
   object-fit: cover;
+}
+
+.badges span {
+  font-size: 1.2rem;
 }

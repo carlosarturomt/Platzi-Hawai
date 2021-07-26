@@ -1,0 +1,14 @@
+//--- Button trigger modal -->
+//- button.btn.btn-primary(type="button" data-bs-toggle="modal" data-bs-target="#modalCompra") Launch static backdrop modal
+//--- Modal -->
+.modal.fade#modalCompra(data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				h5.modal-title#staticBackdropLabel Comprar tickets
+				button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+			.modal-body
+				p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae animi, ratione consequuntur recusandae ab repellendus sit atque error minima velit eligendi commodi totam molestiae maiores pariatur cupiditate assumenda distinctio placeat!
+			.modal-footer
+				button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Cancelar
+				button.btn.btn-platzi(type="button") Comprar 

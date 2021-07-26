@@ -18,9 +18,9 @@ block contenidos
 					+card_bootstrap('../assets/speakers/cvander.jpeg','Foto de Christian Van Der H.', '#', 'Christian Van Der H.', 'JavaScript', 'Node')
 	section#place-time
 		.container-fluid: .row
-			.col.col-lg-6.col-12.px-0: img(src="../assets/images/honolulu.jpg", alt="Ciudad de Honolulu")
+			.col.col-lg-6.col-12.px-0: img(src="../assets/images/honolulu.jpg" alt="Ciudad de Honolulu")
 			.col.col-lg-6.col-12.pt-4.pb-4
-				h2 Honolulu - Octubre 2025
+				h2(data-bs-toggle="tooltip" data-bs-placement="top" title="No te emociones, sólo es un proyecto por parte de los cursos de Platzi, probablemente no iremos ni a Hawai ni seremos oradores." style="cursor: pointer;") Honolulu - Octubre 2025
 				p Honolulu, en la costa sur de la isla de Oahu, es la capital de Hawái y la vía de acceso a la cadena de islas de EE.UU. El barrio de Waikiki es un centro de restaurantes, vida nocturna y comercio, famoso por su icónica playa con forma de medialuna bordeada de palmeras y hoteles de muchos pisos y con el cráter volcánico Diamond Head en lo alto a la distancia. Los sitios relacionados con el ataque a Pearl Harbor en la Segunda Guerra Mundial incluyen el USS Arizona Memorial. 
 				a.btn.btn-outline-light(href="https://www.google.com/search?client=opera&q=honolulu&sourceid=opera&ie=UTF-8&oe=UTF-8") Conoce más
 	section#orador.mt-4.mb-4
@@ -31,7 +31,11 @@ block contenidos
 					h2.h1 Orador
 			.row 
 				.col.text-center
-					p Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!
+					p 
+						|Anótate como orador para dar una 
+						abbr(data-bs-toggle="tooltip" data-bs-placement="top" title="Charlas de 5 minutos" style="font-size: 1.5rem; cursor: pointer;") charla ignite. 
+						|Cuéntanos de qué quieres hablar!
 			.row 
 				.col.col-md-8.offset-md-2.pt-2
-						include components/forms.pug
+					include components/forms.pug
+	include components/modals.pug
