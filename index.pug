@@ -25,17 +25,13 @@ block contenidos
 				a.btn.btn-outline-light(href="https://www.google.com/search?client=opera&q=honolulu&sourceid=opera&ie=UTF-8&oe=UTF-8") Conoce más
 	section#orador.mt-4.mb-4
 		.container
-			.row
-				.col.text-uppercase.text-center
-					p.mb-0 Conviértete en un
-					h2.h1 Orador
-			.row 
-				.col.text-center
-					p 
-						|Anótate como orador para dar una 
-						abbr(data-bs-toggle="tooltip" data-bs-placement="top" title="Charlas de 5 minutos" style="font-size: 1.5rem; cursor: pointer;") charla ignite. 
-						|Cuéntanos de qué quieres hablar!
-			.row 
-				.col.col-md-8.offset-md-2.pt-2
-					include components/forms.pug
+			.row: .col.text-uppercase.text-center
+				p.mb-0 Conviértete en un
+				h2.h1 Orador
+			.row: .col.text-center: p 
+				|Anótate como orador para dar una 
+				abbr(data-bs-toggle="tooltip" data-bs-placement="top" title="Charlas de 5 minutos" style="font-size: 1.5rem; cursor: pointer;") charla ignite. 
+				|Cuéntanos de qué quieres hablar!
+			.row: .col.col-md-8.offset-md-2.pt-2
+				include components/forms.pug
 	include components/modals.pug

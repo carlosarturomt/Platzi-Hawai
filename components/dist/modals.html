@@ -1,13 +1,24 @@
 
 <div class="modal fade" id="modalCompra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel">Comprar tickets</h5>
         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae animi, ratione consequuntur recusandae ab repellendus sit atque error minima velit eligendi commodi totam molestiae maiores pariatur cupiditate assumenda distinctio placeat!</p>
+        <form action="">
+          <div class="row">
+            <div class="col-12 form-label">
+              <div class="input-group mb-3"><span class="input-group-text" id="basic-addon1">@</span>
+                <input class="form-control" type="text" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1"/>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="alert alert-warning" role="alert">
+          <p>Recibirás un correo de confirmación si sales sorteado.</p>
+        </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancelar</button>
